@@ -1,0 +1,12 @@
+aws_region = "us-east-1"
+project_name = "class-activity"
+environment = "dev"
+
+instance_type = "t3.medium"
+asg_min_size = 2
+asg_max_size = 4
+asg_desired_capacity = 2
+
+# Docker Hub image URIs (usuario: dapaeza)
+backend_image_uri = "dapaeza/class-activity-backend:latest"
+frontend_image_uri = "dapaeza/class-activity-frontend:latest"
